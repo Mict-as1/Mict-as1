@@ -1,10 +1,24 @@
-- 👋 Hi, I’m @Mict-as1
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include<stdio.h>
+int addition(int a, int b);
+int subtraction (int a, int b);
+int main()
+{
+    int x, y;
+    printf("enter the first value\n");
+    scanf("%d", & x);
+    printf("enter the second value\n");
+    scanf("%d", & y); 
+    addition(x, y);
+    subtraction(x, y);
+    
+    printf("the addition of two number is %d\n", addition(x, y));
+    printf("the subtraction oftwo number is %d\n", subtraction(x, y));
+    return 0;
+}
+int addition(int a, int b){
+     return (a + b);
+}
+int subtraction (int a, int b){
+     return (a - b);
+}
 
-<!---
-Mict-as1/Mict-as1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
